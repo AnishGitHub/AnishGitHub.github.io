@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url("../font/material.woff2") format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.cent {
+    margin: 0 auto;
+}
+
+.fancyhead {
+    color: white;
+    text-shadow: 0 0 10px #333;
+    margin: 0 auto;
+}
+
+.row {
+    background-image: "../img/background.png";
+}
+
+#me {
+    width: 35%;
+    border: 3px solid #26c6da;
+}
+
+.row .col {
+    padding: 0;
+}
+
+nav, .tabs .indicator {
+    background-color: #ffa726;
+}
+
+.tabs .tab a {
+    color: #ffa726;
+}
+
+.divider {
+    background-color: #333;
+}
+
+footer.page-footer {
+    background-color: #ffa726;
+    margin-top: 0;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.parallax-container {
+    height: 300px;
+}
+
+.mobileshow {
+    display: none;
+}
+
+.tabs .tab:hover {
+    background-color: #ffcc80;
+}
+
+.tabs .tab a:hover {
+    color: white;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+#footnav li, .skillz img, #hbbs li {
+    opacity: 0;
+}
+
+.container span p.flow-text {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+#hbbs {
+    margin-bottom: 4rem;
+}
+
+.projectimg {
+    padding: 10px;
+}
+
+.pink {
+    color: #ff4081;
+    background-color: inherit !important;
+}
+
+.chip {
+    margin: 0 0 15px 0;
+    padding: 0 13px;
+}
+
+#datbartho {
+    margin: 0;
+}
+
+.tabs .indicator {
+    height: 4px;
+}
+
+.progress {
+    background-color: #ffd54f;
+}
+
+.progress .determinate {
+    background-color: #ff6f00;
+}
+
+.indicatorbar {
+    margin: 1px 0 0 0 ;
+    background-color: #ffa726;
+    position: relative;
+    height: 5px;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+form, #contactlinks {
+    margin-bottom: 35px;
+}
+
+.input-field label {
+    left: 0rem;
+}
+
+.btn, .btn-large {
+    background-color: #ff9800;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #ffa726;
+}
+
+.chip {
+    color: #333;
+}
+
+#contactlinks .chip {
+    background-color: #333;
+}
+
+#contactlinks .chip a {
+    color: #ffb74d;
+}
+
+/*
+Also, I think the large card things showing the diff languages/platforms are excessively large
+maybe shrink them somewhat and make it more compact?
+
+also "very passionate about CS" is a weak statement. maybe specify which parts of CS
+or something like "I'm a technology enthusiast, currently studying CS at SJSU"
+*/
