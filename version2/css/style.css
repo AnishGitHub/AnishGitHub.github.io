@@ -1,0 +1,57 @@
+
+h1 {
+  font-weight: 100;
+  font-size: 3.75em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h3  {
+  font-weight: 200;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+nav{
+  text-align: center;
+}
+
+body {
+  background: #243343;
+  color: #AAAAAA;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+#content{
+  text-align: center;
+}
+
+a {
+  color: #999999;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  color: #FFFFFF;
+  transition-duration: 0.4s;
+}
+
+#project{
+  /* text-align: center; */
+  transition-duration: 0.4s;
+}
+
+#project:hover{
+  font-size: 1.3em;
+  color: #FFFFFF;
+  transition-duration: 0.4s;
+}
