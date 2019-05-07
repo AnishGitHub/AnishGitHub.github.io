@@ -17,3 +17,11 @@ h1{
   top: -14px;
   left: 10px;
 }
+
+tr.spaceUnder>td {
+  padding-bottom: 2em;
+}
+
+tr.firstSpaceUnder>td {
+  padding-bottom: 4em;
+}
