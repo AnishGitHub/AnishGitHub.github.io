@@ -4,6 +4,28 @@ h1{
   font-weight: 700
 }
 
+body{
+  width: 95%;
+  margin: 1em auto;
+}
+
+.container{
+  padding-left: 0px;
+}
+
+
+a{
+  font-weight: 400;
+  color: #212529;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #24a1b6;
+  text-decoration: none;
+}
+
+
 .vertical-center {
   margin: 0;
   position: absolute;
