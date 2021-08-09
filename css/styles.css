@@ -48,7 +48,7 @@ tr.firstSpaceUnder>td {
   padding-bottom: 4em;
 }
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 900px) {
       .show-mobile {
         display: block;
       }
@@ -57,7 +57,7 @@ tr.firstSpaceUnder>td {
       }
     }
 
- @media only screen and (min-device-width: 601px) {
+ @media only screen and (min-device-width: 901px) {
       .show-mobile {
         display: none;
       }
